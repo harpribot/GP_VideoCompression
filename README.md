@@ -22,9 +22,11 @@ python compress_video.py
 
 ## RESULT
 Original Video
+
 [![Original Video](http://i3.ytimg.com/vi/G_I42XwoxBg/hqdefault.jpg)](https://www.youtube.com/watch?v=G_I42XwoxBg)
 
 Fully Regenerated Video by taking just 10 periodic frames from the Original Video
+
 [![30 by 1 Compression - Regeneration Video](http://i3.ytimg.com/vi/EZ-6bKy1Yks/hqdefault.jpg)](https://www.youtube.com/watch?v=EZ-6bKy1Yks)
 
 ## NOTE:

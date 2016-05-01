@@ -20,6 +20,13 @@ python compress_video.py
 ```
 6. The regenerated video obtained by doing GBP on just x(=10) frames is stored in video_recovered directory
 
+## RESULT
+Original Video
+[![Original Video](http://i3.ytimg.com/vi/G_I42XwoxBg/hqdefault.jpg)](https://www.youtube.com/watch?v=G_I42XwoxBg)
+
+Fully Regenerated Video by taking just 10 periodic frames from the Original Video
+[![30 by 1 Compression - Regeneration Video](http://i3.ytimg.com/vi/EZ-6bKy1Yks/hqdefault.jpg)](https://www.youtube.com/watch?v=EZ-6bKy1Yks)
+
 ## NOTE:
 1. This is super-slow. To compress and regenerate a 7 second HD video, it took 3 hours. This can be expected as Gaussian Processes are O(n^3).
 2. However it is a non-parametric Regression process, and thus we don't need to come up with models for our parameters. No headaches of it being linear, non-linear etc. On the positive, the GP model, is more close to data.

@@ -32,6 +32,6 @@ Fully Regenerated Video by taking just 10 periodic frames from the Original Vide
 Fully Regenerated Video by taking just 40 periodic frames from the Original Video (300 frames)
 [![30 by 4 Compression - Regeneration Video](http://i3.ytimg.com/vi/UyQRQxTs0l4/hqdefault.jpg)](https://www.youtube.com/watch?v=UyQRQxTs0l4&feature=youtu.be)
 ## NOTE:
-1. This is super-slow. To compress and regenerate a 7 second HD video, it took 3 hours. This can be expected as Gaussian Processes are O(n^3).
+1. This is super-slow. To compress and regenerate a 7 second HD video, it took 30 minutes. This can be expected as Gaussian Processes are O(n^3).
 2. However it is a non-parametric Regression process, and thus we don't need to come up with models for our parameters. No headaches of it being linear, non-linear etc. On the positive, the GP model, is more close to data.
 3. This is no way a useful thing, due to the slowness of Gaussian Processes. However it can be improved as each of the 720 x 1280 GP processes can be executed in parallel. I am trying to setup multiprocessing for this. If that is successful. The compute time can reduce 2-3 times. Still not much (as it will still take 30 minutes to compress and decompress). But there is embarrassingly parallel nature of this work, so there is scope of linear improvement given more process nodes that can run concurrently.

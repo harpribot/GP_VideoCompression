@@ -9,6 +9,10 @@ __pycache__/
 # Macbook
 .DS_Store
 
+# Frames
+frames_original/
+frames_reconstructed/
+
 # Distribution / packaging
 .Python
 env/

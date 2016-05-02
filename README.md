@@ -25,12 +25,8 @@ Original Video
 
 [![Original Video](http://i3.ytimg.com/vi/G_I42XwoxBg/hqdefault.jpg)](https://www.youtube.com/watch?v=G_I42XwoxBg)
 
-<<<<<<< HEAD
 Fully Regenerated Video by taking just 10 periodic frames from the Original Video (300 frames)
-=======
-Fully Regenerated Video by taking just 10 periodic frames from the Original Video
 
->>>>>>> 7012a2430c5172c25e42f1a9212627a3cbd96c5a
 [![30 by 1 Compression - Regeneration Video](http://i3.ytimg.com/vi/EZ-6bKy1Yks/hqdefault.jpg)](https://www.youtube.com/watch?v=EZ-6bKy1Yks)
 
 Fully Regenerated Video by taking just 40 periodic frames from the Original Video (300 frames)
